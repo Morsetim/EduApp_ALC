@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/Radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1">
+            android:background="@drawable/radio_group_round_corners">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1. The control center or brain of the cell is the"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/Radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nucleus" />
+
+            <RadioButton
+                android:id="@+id/Radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:text="Mitochondria" />
+
+            <RadioButton
+                android:id="@+id/Radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell membrane" />
+
+            <RadioButton
+                android:id="@+id/Radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endoplasmic reticulum" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group"
+            android:text="2. Blalalalalala is for bbbhd"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_edit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:ems="15"
+            android:inputType="textPersonName|textCapWords" />
+
+        <RadioGroup
+            android:id="@+id/Radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_name"
+            android:layout_weight="1">
+            android:background="@drawable/radio_group_round_corners">
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Radio_group"
+                android:padding="10dp"
+                android:text="3.The thin, flexible barrier around a cell is called the"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/Radio9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plasma membrane" />
+
+            <RadioButton
+                android:id="@+id/Radio10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:text="Cell wall" />
+
+            <RadioButton
+                android:id="@+id/Radio11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nuclear envelope" />
+
+            <RadioButton
+                android:id="@+id/Radio12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cytoplasm" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_group3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group2"
+            android:layout_weight="1">
+            android:background="@drawable/radio_group_round_corners">
+
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Radio_group"
+                android:padding="10dp"
+                android:text="4.The main function of the cell wall is to"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/Radio13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Support and protect the cell" />
+
+            <RadioButton
+                android:id="@+id/Radio14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:text="Store DNA" />
+
+            <RadioButton
+                android:id="@+id/Radio15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help the cell move" />
+
+            <RadioButton
+                android:id="@+id/Radio16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direct the activities of the cell" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_group4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group3"
+            android:layout_weight="1">
+            android:background="@drawable/radio_group_round_corners">
+
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Radio_group"
+                android:padding="10dp"
+                android:text="5.Which of the following is the function of the cytoskeleton?"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/Radio17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helps a cell keep its shape" />
+
+            <RadioButton
+                android:id="@+id/Radio18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:text="Contains DNA" />
+
+            <RadioButton
+                android:id="@+id/Radio19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surrounds the cell" />
+
+            <RadioButton
+                android:id="@+id/Radio20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helps make proteins" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_group5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group4"
+            android:layout_weight="1">
+            android:background="@drawable/radio_group_round_corners">
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Radio_group"
+                android:padding="10dp"
+                android:text="6.Which of the following is the site for protein synthesis?"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/Radio21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell membrane" />
+
+            <RadioButton
+                android:id="@+id/Radio22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:text="Nucleus" />
+
+            <RadioButton
+                android:id="@+id/Radio23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ribosome" />
+
+            <RadioButton
+                android:id="@+id/Radio24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lysosome" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Checkbox_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group5"
+            android:layout_margin="10dp"
+            android:text="The following are the functions of a Cell except?" />
+
+        <CheckBox
+            android:id="@+id/Check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Checkbox_text"
+            android:text="2. Billions of individual cells band together to form tissue."/>
+            android:layout_margin="10dp" />
+        <CheckBox
+            android:id="@+id/Check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check1"
+            android:text="1. Without Cells life cannot exist."
+            android:layout_margin="10dp" />
+
+        <CheckBox
+            android:id="@+id/Check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check2"
+            android:layout_margin="10dp"
+            android:text="3. Aids Movement."/>
+
+        <CheckBox
+            android:id="@+id/Check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check3"
+            android:layout_margin="10dp"
+            android:text="4. Send signals to the brain"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group5"
+            android:layout_centerHorizontal="true"
+            android:onClick="refresh"
+            android:text="Restart"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button1"
+            android:layout_centerHorizontal="true"
+            android:onClick="submitForm"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2" />
+
+    </RelativeLayout>
+</ScrollView>
