@@ -202,11 +202,51 @@
                 android:text="Helps make proteins" />
         </RadioGroup>
 
-        <RadioGroup
-            android:id="@+id/Radio_group5"
+        <TextView
+            android:id="@+id/Checkbox_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/Radio_group4"
+            android:layout_margin="10dp"
+            android:text="The following are the functions of a Cell except?" />
+
+        <CheckBox
+            android:id="@+id/Check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Checkbox_text"
+            android:text="2. Billions of individual cells band together to form tissue."/>
+        android:layout_margin="10dp" />
+        <CheckBox
+            android:id="@+id/Check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check1"
+            android:text="1. Without Cells life cannot exist."
+            android:layout_margin="10dp" />
+
+        <CheckBox
+            android:id="@+id/Check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check2"
+            android:layout_margin="10dp"
+            android:text="3. Aids Movement."/>
+
+        <CheckBox
+            android:id="@+id/Check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check3"
+            android:layout_margin="10dp"
+            android:text="4. Send signals to the brain"/>
+
+        <RadioGroup
+            android:layout_marginTop="40dp"
+            android:id="@+id/Radio_group5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Check3"
             android:layout_weight="1">
             android:background="@drawable/radio_group_round_corners">
 
@@ -245,44 +285,6 @@
                 android:text="Lysosome" />
         </RadioGroup>
 
-        <TextView
-            android:id="@+id/Checkbox_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Radio_group5"
-            android:layout_margin="10dp"
-            android:text="The following are the functions of a Cell except?" />
-
-        <CheckBox
-            android:id="@+id/Check1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Checkbox_text"
-            android:text="2. Billions of individual cells band together to form tissue."/>
-            android:layout_margin="10dp" />
-        <CheckBox
-            android:id="@+id/Check2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Check1"
-            android:text="1. Without Cells life cannot exist."
-            android:layout_margin="10dp" />
-
-        <CheckBox
-            android:id="@+id/Check3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Check2"
-            android:layout_margin="10dp"
-            android:text="3. Aids Movement."/>
-
-        <CheckBox
-            android:id="@+id/Check4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Check3"
-            android:layout_margin="10dp"
-            android:text="4. Send signals to the brain"/>
 
         <Button
             android:id="@+id/button1"
@@ -292,6 +294,7 @@
             android:layout_centerHorizontal="true"
             android:onClick="refresh"
             android:text="Restart"
+            android:layout_margin="20dp"
             android:layout_alignParentBottom="true"/>
 
         <Button
@@ -300,6 +303,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button1"
             android:layout_centerHorizontal="true"
+            android:layout_margin="40dp"
             android:onClick="submitForm"
             android:text="Submit" />
 
